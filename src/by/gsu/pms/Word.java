@@ -8,7 +8,7 @@ public class Word{
 
     public Word(String word){
         this.word = word;
-        this.copies = 0;
+        this.copies = -1;
         this.searched = false;
     }
 
